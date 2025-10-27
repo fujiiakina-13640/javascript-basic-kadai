@@ -1,5 +1,8 @@
 function square(i) {
-  console.log( i * i );
+  let result = i * i;
+  return result;
 }
 
-square(10);
+let result = square(10);
+
+console.log( result );
